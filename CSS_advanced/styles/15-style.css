@@ -33,8 +33,11 @@
 	--section-title-color: var(--color-black);
 }
 
-* {
-	box-sizing: border-box; /* Universal box sizing rule */
+/* Universal box sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
 html {
